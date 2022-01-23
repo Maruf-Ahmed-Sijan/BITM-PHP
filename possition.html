@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>possition</title>
+
+    <style>
+        .div-one{
+            height:400px;
+            width: 600px;
+            background-color: darkgreen;
+            position: relative;
+            margin-top: 20px;
+
+        }
+        .div-two{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            position: absolute;
+            right: 250px;
+            top: 100px;
+            border-radius: 50%;
+        }
+        .div-three{
+            height: 300px;
+            width: 300px;
+            background-color: blue;
+            border-radius: 45px 10px 45px 10px;
+            transition: 1s;
+            margin-top: 10px;
+        }
+        .div-three:hover{
+            margin-top: 15px;
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            border-radius: 10px 45px 11px 45px;
+        }
+        .class1{
+
+        }
+    </style>
+
+
+
+</head>
+    <body>
+        <div class="class1"></div>
+        <div class="div-three"></div>
+        <div class="div-one">
+            <div class="div-two"></div>
+
+        </div>
+
+
+
+    </body>
+</html>
